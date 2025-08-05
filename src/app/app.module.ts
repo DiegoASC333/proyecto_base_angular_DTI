@@ -60,7 +60,7 @@ import {
 import { IconModule, IconSetService } from '@coreui/icons-angular';
 
 // Import custom
-import { AuthenticationService, AuthGuardService, ExampleService } from './services';
+import { AuthenticationService, AuthGuardService } from './services';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './views/login/login.component';
 import { Ng9RutModule } from 'ng9-rut';
@@ -146,7 +146,6 @@ const APP_CONTAINERS = [
     DatePipe,
     AuthenticationService,
     AuthGuardService,
-    ExampleService,
   ],
   bootstrap: [AppComponent],
 })
